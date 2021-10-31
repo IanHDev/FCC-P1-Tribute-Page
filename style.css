@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(to bottom, #33ccff 0%, #ffffff 100%);
+  
+}
+
+#main {
+background: #FF6633;
+border: 10px solid black;
+margin: 50px;
+padding: 20px;
+
+}
+
+#title {
+display: grid;
+width: 100%;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+column-gap: 20px;
+}
+
+
+#title-image {
+border-radius: 50%;
+max-width:200px;
+height: auto;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 3;
+justify-self: end;
+}
+
+h1 {
+justify-self: start;
+align-self: end;
+font-size: 3em;
+margin: 5px;
+}
+
+h2 {
+justify-self: start;
+align-self: start;
+margin: 5px;
+
+}
+
+#img-div {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+margin-bottom: 50px;
+background: #fc7d53;
+}
+
+#image {
+align-self: center;
+justify-content: center;
+max-width: 100%;
+min-width: 20%;
+height:auto;
+margin: 10px;
+}
+
+#img-caption {
+align-self: center;
+margin-top: 15px;
+font-weight: bold;
+font-size: 1.25em;
+}
+
+#tribute-info {
+font-weight: bold;
+margin: auto;
+width: 75%;
+
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+ul {
+  padding-top: 20px;
+}
+
+li {
+  list-style-type:square;
+  margin-bottom: 20px;
+}
+#quote {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+font-style: italic;
+font-size: 1.25em;
+}
+
+#more-info {
+text-align: center;
+
+}
+
+
+/* Main image will not stay centered when window is smaller? Work on the tribute info and further down. */
