@@ -103,5 +103,4 @@ text-align: center;
 
 }
 
-
-/* Main image will not stay centered when window is smaller? Work on the tribute info and further down. */
+/* set a minimum window distance for the body so the text doesn't fall off the screen. All tests have passed. */
